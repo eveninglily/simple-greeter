@@ -1,6 +1,6 @@
 [theme]
-name=greeter
-description=Simple Dark theme
+name=simple-greeter
+description=Simple Dark greeter
 engine=lightdm-webkit2-greeter
 url=index.html
 session=budgie
