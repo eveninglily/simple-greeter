@@ -3,18 +3,19 @@
         <link rel='stylesheet' href='assets/style.css'/>
     </head>
 
-    <body>
+    <body id="body">
         <div class='centered'>
             <input autofocus type="password" id="pass"/> <br/>
+            <p id='message'></p>
         </div>
         <div id='opts'>
             <select id="sessions" name="select"></select>
             <div id='cmd'>
-                <a href='#'>Shutdown</a>|
-                <a href='#'>Restart</a>|
-                <a href='#'>Suspend</a>|
-                <a href='#'>Hibernate</a>
+                <a id='shutdown' href='#'>Shutdown</a>|
+                <a id='restart' href='#'>Restart</a>|
+                <a id='suspend' href='#'>Suspend</a>
             </div>
         </div>
+        <script src='assets/script.js'></script>
     </body>
 </html>

@@ -25,6 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
+    flex-direction: column;
 }
 
 #opts {
@@ -67,4 +68,13 @@ a:hover {
 #sessions:hover{
     color: black;
     background: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+#message {
+    color: red;
+    font-size: 1.5em
 }
